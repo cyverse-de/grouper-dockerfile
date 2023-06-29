@@ -1,3 +1,3 @@
 # grouper-dockerfile
 
-This repository contains the Dockerfile and Skaffold files needed to deploy Grouper to Kubernetes.
+This repository contains the Dockerfile and manifest files needed to deploy Grouper to Kubernetes.
