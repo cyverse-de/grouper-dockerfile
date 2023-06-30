@@ -1,4 +1,4 @@
-apiVersion: skaffold/v4beta5
+apiVersion: skaffold/v1
 kind: Config
 metadata:
   name: grouper-dockerfile
@@ -14,4 +14,4 @@ build:
     - image: harbor.cyverse.org/de/grouper
       docker:
         dockerfile: Dockerfile
-      local: {}
+  local: {}
