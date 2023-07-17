@@ -6,11 +6,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: grouper-ws
+      de-app: grouper-ws
   template:
     metadata:
       labels:
-        app: grouper-ws
+        de-app: grouper-ws
     spec:
       affinity:
         podAntiAffinity:
