@@ -64,6 +64,9 @@ spec:
               - key: grouper-subject.properties
                 path: subject.properties
 
+              - key: grouper-ui.properties
+                path: grouper-ui.properties
+
               - key: grouper-ws.properties
                 path: grouper-ws.properties
 
