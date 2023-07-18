@@ -135,7 +135,7 @@ metadata:
   name: grouper-ws
 spec:
   selector:
-    app: grouper-ws
+    de-app: grouper-ws
   ports:
     - protocol: TCP
       port: 80
