@@ -79,9 +79,11 @@ spec:
             requests:
               cpu: "256m"
               memory: "1Gi"
+              ephemeral-storage: "1Gi"
             limits:
               cpu: "1024m"
               memory: "3Gi"
+              ephemeral-storage: "1Gi"
           command: ["/bin/bash"]
           args: ["-c", "gsh -loader"]
           volumeMounts:
